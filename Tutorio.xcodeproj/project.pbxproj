@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6982B9D81D4C62EC00808002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6982B9D71D4C62EC00808002 /* AppDelegate.swift */; };
+		6982B9DA1D4C62EC00808002 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6982B9D91D4C62EC00808002 /* ViewController.swift */; };
+		6982B9DD1D4C62EC00808002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6982B9DB1D4C62EC00808002 /* Main.storyboard */; };
+		6982B9E01D4C62EC00808002 /* Tutorio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6982B9DE1D4C62EC00808002 /* Tutorio.xcdatamodeld */; };
+		6982B9E21D4C62EC00808002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6982B9E11D4C62EC00808002 /* Assets.xcassets */; };
+		6982B9E51D4C62EC00808002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6982B9E31D4C62EC00808002 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6982B9D41D4C62EC00808002 /* Tutorio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6982B9D71D4C62EC00808002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6982B9D91D4C62EC00808002 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6982B9DC1D4C62EC00808002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6982B9DF1D4C62EC00808002 /* Tutorio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tutorio.xcdatamodel; sourceTree = "<group>"; };
+		6982B9E11D4C62EC00808002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6982B9E41D4C62EC00808002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6982B9E61D4C62EC00808002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6982B9D11D4C62EC00808002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6982B9CB1D4C62EC00808002 = {
+			isa = PBXGroup;
+			children = (
+				6982B9D61D4C62EC00808002 /* Tutorio */,
+				6982B9D51D4C62EC00808002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6982B9D51D4C62EC00808002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6982B9D41D4C62EC00808002 /* Tutorio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6982B9D61D4C62EC00808002 /* Tutorio */ = {
+			isa = PBXGroup;
+			children = (
+				6982B9D71D4C62EC00808002 /* AppDelegate.swift */,
+				6982B9D91D4C62EC00808002 /* ViewController.swift */,
+				6982B9DB1D4C62EC00808002 /* Main.storyboard */,
+				6982B9E11D4C62EC00808002 /* Assets.xcassets */,
+				6982B9E31D4C62EC00808002 /* LaunchScreen.storyboard */,
+				6982B9E61D4C62EC00808002 /* Info.plist */,
+				6982B9DE1D4C62EC00808002 /* Tutorio.xcdatamodeld */,
+			);
+			path = Tutorio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6982B9D31D4C62EC00808002 /* Tutorio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6982B9E91D4C62EC00808002 /* Build configuration list for PBXNativeTarget "Tutorio" */;
+			buildPhases = (
+				6982B9D01D4C62EC00808002 /* Sources */,
+				6982B9D11D4C62EC00808002 /* Frameworks */,
+				6982B9D21D4C62EC00808002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tutorio;
+			productName = Tutorio;
+			productReference = 6982B9D41D4C62EC00808002 /* Tutorio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6982B9CC1D4C62EC00808002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tutorio;
+				TargetAttributes = {
+					6982B9D31D4C62EC00808002 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6982B9CF1D4C62EC00808002 /* Build configuration list for PBXProject "Tutorio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6982B9CB1D4C62EC00808002;
+			productRefGroup = 6982B9D51D4C62EC00808002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6982B9D31D4C62EC00808002 /* Tutorio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6982B9D21D4C62EC00808002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6982B9E51D4C62EC00808002 /* LaunchScreen.storyboard in Resources */,
+				6982B9E21D4C62EC00808002 /* Assets.xcassets in Resources */,
+				6982B9DD1D4C62EC00808002 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6982B9D01D4C62EC00808002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6982B9E01D4C62EC00808002 /* Tutorio.xcdatamodeld in Sources */,
+				6982B9DA1D4C62EC00808002 /* ViewController.swift in Sources */,
+				6982B9D81D4C62EC00808002 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6982B9DB1D4C62EC00808002 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6982B9DC1D4C62EC00808002 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6982B9E31D4C62EC00808002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6982B9E41D4C62EC00808002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6982B9E71D4C62EC00808002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6982B9E81D4C62EC00808002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6982B9EA1D4C62EC00808002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tutorio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tutorio.Tutorio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6982B9EB1D4C62EC00808002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tutorio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tutorio.Tutorio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6982B9CF1D4C62EC00808002 /* Build configuration list for PBXProject "Tutorio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6982B9E71D4C62EC00808002 /* Debug */,
+				6982B9E81D4C62EC00808002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6982B9E91D4C62EC00808002 /* Build configuration list for PBXNativeTarget "Tutorio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6982B9EA1D4C62EC00808002 /* Debug */,
+				6982B9EB1D4C62EC00808002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6982B9DE1D4C62EC00808002 /* Tutorio.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6982B9DF1D4C62EC00808002 /* Tutorio.xcdatamodel */,
+			);
+			currentVersion = 6982B9DF1D4C62EC00808002 /* Tutorio.xcdatamodel */;
+			path = Tutorio.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6982B9CC1D4C62EC00808002 /* Project object */;
+}
